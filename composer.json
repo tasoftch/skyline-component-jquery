@@ -1,0 +1,14 @@
+{
+  "name": "skyline/component-jquery",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Thomas Abplanalp",
+      "email": "info@tasoft.ch"
+    }
+  ],
+  "require" : {
+    "php": "^7.2"
+  }
+}
