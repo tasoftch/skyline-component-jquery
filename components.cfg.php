@@ -25,6 +25,6 @@ use Skyline\Component\Config\JavaScriptComponent;
 
 return [
     'jQuery' => [
-        'js' => new JavaScriptComponent('https://code.jquery.com/jquery-2.2.4.min.js', "sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=")
+        'js' => new JavaScriptComponent('https://code.jquery.com/jquery-3.4.1.min.js', "sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=")
     ]
 ];
