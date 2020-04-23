@@ -1,7 +1,6 @@
 {
   "name": "skyline/component-jquery",
   "license": "MIT",
-  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Thomas Abplanalp",
@@ -10,6 +9,6 @@
   ],
   "require" : {
     "php": "^7.2",
-    "skyline/direct-components": "dev-master"
+    "skyline/direct-components": "^0.8"
   }
 }
