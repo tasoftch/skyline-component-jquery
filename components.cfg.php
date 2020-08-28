@@ -22,17 +22,12 @@
  */
 
 use Skyline\Component\Config\JavaScriptComponent;
-use Skyline\Compiler\CompilerContext;
-
-
-$js = __DIR__ . "/jquery.min.js";
 
 return [
     'jQuery' => [
         'js' => new JavaScriptComponent(
-        	'Public/js/jquery.min.js',
-			'sha384-'.base64_encode(hash_file("sha384", $js, true)),
-			NULL,
-			CompilerContext::getCurrentCompiler()->getRelativeProjectPath($js))
+        	'https://code.jquery.com/jquery-3.5.1.min.js',
+			'sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0='
+		)
     ]
 ];
